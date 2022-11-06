@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&display=swap');
+
+
+:root {
+  --primary: #0B0D28;
+  --green: #24D176;
+  --dark-blue: #192060;
+  --light-blue: #abafe8;
+
+  /*font variable*/
+  --primary-font: 'Chakra Petch', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 10px !important;
+}
+
+body {
+  font-family: var(--primary-font) !important;
+  background-color: var(--primary) !important;
+}
+
+
+p {
+  font-size: 1.8rem !important;
+}
+
+a {
+  font-size: 1.8rem !important;
+  text-decoration: none !important;
+
+}
+
+/*button*/
+.custom_button {
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  border: 1px solid var(--green);
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  cursor: pointer;
+}
+
+.custom_button:hover{
+  color: var(--light-blue);
+}
+
+/*section title*/
+
+.section_title {
+  font-size: 4rem;
+  color: #fff;
+  margin: 3rem 0;
+}
+
+.section_title::after {
+  display: block;
+  margin-top: 1.5rem;
+  width: 20rem;
+  height: .3rem;
+  background: var(--green);
+  content: "";
 }

@@ -1,0 +1,43 @@
+#services {
+    padding: 10rem 0;
+}
+
+.card {
+    background-color: transparent !important;
+    border-color: var(--dark-blue) !important;
+    height: 550px !important;
+    position: relative;
+
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 4rem !important;
+}
+
+.card-body .custom_button {
+    position: absolute;
+    bottom: 1rem;
+}
+
+.card-title {
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 2rem !important;
+}
+
+.card-text {
+    color: var(--light-blue) !important;
+    line-height: 2;
+    font-size: 1.6rem !important;
+    margin-bottom: 3rem !important;
+
+    /* height: 40% !important; */
+}
+
+.service_item {
+    padding: 0 !important;
+}

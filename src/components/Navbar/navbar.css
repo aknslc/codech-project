@@ -1,0 +1,34 @@
+
+.navbar{
+    border-bottom: 1px solid var(--dark-blue);
+    padding: 1rem 0px !important;
+    backdrop-filter: blur(6px);
+    
+}
+.nav-link {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #fff !important;
+}
+
+.navbar-toggler {
+    background-color: #fff !important;
+    color: var(--light-blue) !important;
+}
+
+.navbar-toggler-icon {
+    font-size: 1.8rem !important;
+}
+
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+
+.nav-item {
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+
+.nav-item:nth-last-child(1) {
+    margin-right: 0px !important;
+}

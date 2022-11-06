@@ -1,0 +1,17 @@
+#hero{
+    position: absolute;
+    top: 35%;
+    left: 10rem;
+}
+
+.hero_title{
+    font-size: 3rem;
+    color: var(--green);
+}
+
+.hero_description{
+    font-size: 5rem !important;
+    text-transform: uppercase;
+    color: #fff;
+
+}
