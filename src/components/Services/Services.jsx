@@ -11,10 +11,10 @@ const Services = () => {
                     <div className="row">
                         {HomeServices.map(service => (
                             <div key={service.id} className="service_item col-lg-4 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">{service.title}</h5>
-                                        <p class="card-text">{service.content}</p>
+                                <div className="card">
+                                    <div className="card-body">
+                                        <h5 className="card-title">{service.title}</h5>
+                                        <p className="card-text">{service.content}</p>
                                         <a className='custom_button' href="/">For More</a>
                                     </div>
                                 </div>
