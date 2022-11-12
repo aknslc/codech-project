@@ -16,7 +16,7 @@ const Solution = () => {
                         {solutions.map((item, index) => (
 
                             <div
-                                className={`figure position-absolute ${active.id === item.id ? 'active' : ''} 
+                                className={`figure  ${active.id === item.id ? 'active' : ''} 
                                 ${index === 0 ? 'figure-topLeft' : ''}
                                 ${index === 1 ? 'figure-topRight' : ''}
                                 ${index === 2 ? 'figure-bottomLeft' : ''}
@@ -53,7 +53,6 @@ const Solution = () => {
 
                 </div>
             </div>
-
         </section>
     )
 }

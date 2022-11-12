@@ -8,8 +8,8 @@ const Footer = () => {
     return (
         <footer>
             <div className="container">
-                <div className="footer_content d-flex justify-content-between align-items-center">
-                    <div className="footer_item footer_block_address">
+                <div className="footer_content row d-flex justify-content-between align-items-start">
+                    <div className="footer_item col-lg-2 col-md-6 col-sm-12 footer_block_address">
                         <a className='footer_logo' href="/">
                             <img src={logo} alt="" />
                         </a>
@@ -27,46 +27,46 @@ const Footer = () => {
                             info@rubiklabs.com
                         </p>
                     </div>
-                    <div className="footer_item">
+                    <div className="footer_item col-lg-2 col-md-6 col-sm-12">
+                        <h3 className="footer_item_title">
+                            About Us
+                        </h3>
+
+                        <a className='footer_item_link' href="/">Institutional</a>
+                        <a className='footer_item_link' href="/">About Us</a>
+                        <a className='footer_item_link' href="/">Who Are We</a>
+                        <a className='footer_item_link' href="/">Our Services</a>
+                        <a className='footer_item_link' href="/">Contact</a>
+                    </div>
+                    <div className="footer_item col-lg-2 col-md-6 col-sm-12">
                         <h3 className="footer_item_title">
                             Platforms
                         </h3>
+                        <a className='footer_item_link' href="/">Blog</a>
+                        <a className='footer_item_link' href="/">Gamification</a>
+                        <a className='footer_item_link' href="/">Cloud ERP</a>
+                        <a className='footer_item_link' href="/">META</a>
 
-                        <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
                     </div>
-                    <div className="footer_item">
+                    <div className="footer_item col-lg-2 col-md-6 col-sm-12">
                         <h3 className="footer_item_title">
                             About Us
                         </h3>
+                        <a className='footer_item_link' href="/">Institutional</a>
+                        <a className='footer_item_link' href="/">About Us</a>
                         <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
+                        <a className='footer_item_link' href="/">Our Services</a>
+                        <a className='footer_item_link' href="/">Contact</a>
                     </div>
-                    <div className="footer_item">
-                        <h3 className="footer_item_title">
-                            About Us
-                        </h3>
-                        <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
-                    </div>
-                    <div className="footer_item">
+                    <div className="footer_item col-lg-2 col-md-6 col-sm-12">
                         <h3 className="footer_item_title">
                         Platforms
                         </h3>
+                        <a className='footer_item_link' href="/">Institutional</a>
+                        <a className='footer_item_link' href="/">About Us</a>
                         <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
-                        <a className='footer_item_link' href="/">Who Are We</a>
+                        <a className='footer_item_link' href="/">Our Services</a>
+                        <a className='footer_item_link' href="/">Contact</a>
                     </div>
 
                 </div>

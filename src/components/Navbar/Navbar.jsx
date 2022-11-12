@@ -1,9 +1,12 @@
 import React from 'react'
 import logo from '../../assets/images/logo.svg'
-import {navLinks} from '../../constants/index'
+import { navLinks } from '../../constants/index'
 import './navbar.css'
 
 const Navbar = () => {
+
+
+
   return (
 
     <nav className="navbar fixed-top navbar-expand-lg">
@@ -18,11 +21,16 @@ const Navbar = () => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
             {navLinks.map(nav => (
-              <li 
-              className="nav-item"
-              key={nav.id}
+              <li
+                className="nav-item"
+                key={nav.id}
               >
-                <a className="nav-link" href="/">{nav.title}</a>
+                <a className={`nav-link ${nav.title === 'Home' ? 'active' : ''}`}
+                  href="/"
+                >
+
+                  {nav.title}
+                </a>
               </li>
             ))}
 

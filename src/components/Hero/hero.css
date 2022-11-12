@@ -1,17 +1,38 @@
-#hero{
+#hero {
     position: absolute;
     top: 35%;
     left: 10rem;
 }
 
-.hero_title{
+.hero_title {
     font-size: 3rem;
     color: var(--green);
 }
 
-.hero_description{
+.hero_description {
     font-size: 5rem !important;
     text-transform: uppercase;
     color: #fff;
 
 }
+
+
+/* responsive css */
+
+@media (max-width: 576px) {
+    #hero{
+        left: 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #hero{
+        left: 5rem;
+    }
+    .hero_description{
+        font-size: 3rem !important;
+
+    }
+}
+
+@media (max-width: 992px) {}
