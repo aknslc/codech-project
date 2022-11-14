@@ -28,24 +28,60 @@ export const navLinks = [
     },
 ];
 
-export const HomeServices = [
+export const ServicesArray = [
     {
         id: "service-1",
         title: "Web Software",
         content:
-            "Rubiklabs realizes the best web software by acting according to your wishes. It takes care that your web pages are suitable and user-friendly pages. It also provides support for all problems that may occur after the web software.",
+            "It takes care that your web pages are suitable and user-friendly pages. Iproblems that may occur after the web software.",
     },
     {
         id: "service-2",
         title: "Cloud ERP",
         content:
-            "Gain insights to find the right cloud ERP partner for you, gain productivity and flexibility, have a consistent view across your business, and access next-generation technology and improvements.",
+            "gain productivity and flexibility, have a consistent view across your business, and access next-generation technology and improvements.",
     },
     {
         id: "service-3",
         title: "Social Media",
         content:
-            "How do you ensure your social media management approach is right for your brand? Your digital marketing strategy addresses how your brand will position itself online to generate more business. We are with you for accurate results.",
+            "Your digital marketing strategy addresses how your brand will position itself online to generate more business. We are with you for accurate results.",
+    },
+    {
+        id: "service-4",
+        title: "Social Media 4",
+        content:
+            "Your digital marketing strategy addresses how your brand will position itself online to generate more business. We are with you for accurate results.",
+    },
+    {
+        id: "service-5",
+        title: "Social Media 5",
+        content:
+            "Your digital marketing strategy addresses how your brande more business. We are with you for accurate results.",
+    },
+    {
+        id: "service-6",
+        title: "Social Media 6",
+        content:
+            "Your digital marketing strategy addresses how your brand will position itself online to generate more business. We are with you for accurate results.",
+    },
+    {
+        id: "service-7",
+        title: "Social Media 7",
+        content:
+            "Your digital marketing strategy addresses how your brand will position itself online to generate more business. We are with you for accurate results.",
+    },
+    {
+        id: "service-8",
+        title: "Social Media 8",
+        content:
+            "Your digital marketing strategy addresses how your brand will position itself online to generate more business. We are with you for accurate results.",
+    },
+    {
+        id: "service-9",
+        title: "Social Media 9",
+        content:
+            "How do you ensure your social media managhow your brand will position itself online to generate more business. We are with you for accurate results.",
     },
 ];
 

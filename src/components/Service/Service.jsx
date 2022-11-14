@@ -1,7 +1,9 @@
 import React from 'react'
-import './services.css'
-import { HomeServices } from '../../constants'
-const Services = () => {
+import './service.css'
+
+const Service = ( {ServicesArray}) => {
+
+    
     return (
         <section id='services'>
             <div className="container">
@@ -9,7 +11,7 @@ const Services = () => {
                     <h2 className='section_title'>Our Services</h2>
 
                     <div className="row">
-                        {HomeServices.map(service => (
+                    {ServicesArray.map(service => (
                             <div key={service.id} className="service_item col-lg-4 col-md-6 col-sm-12">
                                 <div className="card">
                                     <div className="card-body">
@@ -19,7 +21,6 @@ const Services = () => {
                                     </div>
                                 </div>
                             </div>
-
                         ))}
                     </div>
                 </div>
@@ -28,4 +29,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Service

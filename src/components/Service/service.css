@@ -5,7 +5,7 @@
 .card {
     background-color: transparent !important;
     border-color: var(--dark-blue) !important;
-    height: 550px !important;
+    height: 450px !important;
     position: relative;
 
 }
@@ -61,4 +61,10 @@
     .service_item:nth-child(3) {
         width: 100% !important;
     }    
+}
+
+@media (max-width: 1200px) {
+    .custom_button{
+        margin: 25px 0 !important;
+    }  
 }

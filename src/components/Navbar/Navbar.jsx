@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../assets/images/logo.svg'
 import { navLinks } from '../../constants/index'
+import { Link } from 'react-router-dom'
 import './navbar.css'
 
 const Navbar = () => {
@@ -25,15 +26,13 @@ const Navbar = () => {
                 className="nav-item"
                 key={nav.id}
               >
-                <a className={`nav-link ${nav.title === 'Home' ? 'active' : ''}`}
-                  href="/"
+                <Link className={`nav-link ${nav.title === 'Home' ? 'active' : ''}`}
+                  to={`/${nav.id !== 'home' ? nav.id : "" }`}
                 >
-
                   {nav.title}
-                </a>
+                </Link>
               </li>
             ))}
-
           </ul>
         </div>
       </div>
