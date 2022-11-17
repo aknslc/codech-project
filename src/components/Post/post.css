@@ -1,0 +1,42 @@
+.post-item-card {
+    text-align: start;
+    height: auto;
+    position: relative;
+    padding: 20px;
+    margin:25px;
+    border-bottom: 1px solid var(--dark-blue);
+
+}
+
+.post-item-card img {
+    width: 100%;
+
+}
+.post-item-card .date {
+    opacity: .6;
+
+}
+
+.post-item-card h2 {
+    color: var(--green);
+    font-size: 2.5rem;
+    margin-top: 25px;
+}
+
+.post-item-card p {
+    color: var(--light-blue);
+}
+
+.post-item-card .custom_button {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity .25s ease-in;
+    backdrop-filter: blur(2px);
+}
+
+.post-item-card:hover .custom_button {
+    opacity: 1;
+}

@@ -1,0 +1,23 @@
+
+
+.banner {
+    padding: 100px 0;
+    background-color: #080a20;
+
+}
+
+.banner_title{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    
+}
+.banner_title::after{
+    display: block;
+    margin: 15px auto 0;
+    width: 100px;
+    height: 4px;
+    background: #24d176;
+    content: "";
+}

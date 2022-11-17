@@ -3,6 +3,7 @@ import storageIcon from '../assets/images/storage_icon.svg'
 import blockchainIcon from '../assets/images/blockchain.svg'
 import cloudIcon from '../assets/images/cloud_icon.svg'
 import enterpriseIcon from '../assets/images/enterprise_icon.svg'
+import postImage from '../assets/images/post.png'
 
 
 export const navLinks = [
@@ -13,10 +14,6 @@ export const navLinks = [
     {
         id: "services",
         title: "Services",
-    },
-    {
-        id: "references",
-        title: "References",
     },
     {
         id: "blogs",
@@ -89,27 +86,76 @@ export const ServicesArray = [
 export const solutions = [
     {
         id: "solution-1",
-        title:"Server Services",
-        icon:storageIcon,
+        title: "Server Services",
+        icon: storageIcon,
         content: "Accurate analysis of customers' requirements; Suggesting effective solutions to meet these needs and knowing the importance of providing full support in the implementation process of these solutions form the basis of Rubiklabs's strength from its experience. From this point of view, the technical service unit within Rubiklabs has been structured in such a way as to provide the best possible support to its customers.",
     },
     {
         id: "solution-2",
-        title:"Enterprise Solutions",
-        icon:enterpriseIcon,
+        title: "Enterprise Solutions",
+        icon: enterpriseIcon,
         content: "Accurate analysis of customers' requirements; Suggesting effective solutions to meet these needs and knowing the importance of providing full support in the implementation process of these solutions form the basis of Rubiklabs's strength from its experience.",
     },
     {
         id: "solution-3",
-        title:"Cloud",
-        icon:cloudIcon,
+        title: "Cloud",
+        icon: cloudIcon,
         content: "Cloud services are special systems that are completely configured using virtualization technology to serve over the internet, taking into account the needs of companies and individuals.",
     },
     {
         id: "solution-4",
-        title:"Blockchain",
-        icon:blockchainIcon,
+        title: "Blockchain",
+        icon: blockchainIcon,
         content: "Our blockchain consulting services make this possible by creating a scalable, enterprise-grade distributed system for your purposes, using a proven network design framework that supports operational agility while providing new revenue streams.",
     },
-    
+
+];
+
+export const postsTitle = [
+    {
+        id: "all",
+        title: "All",
+    },
+    {
+        id: "web-site",
+        title: "Web site",
+    },
+    {
+        id: "mobile-app",
+        title: "Mobile App",
+    },
+    {
+        id: "graphic-design",
+        title: "Graphic design",
+    },
+];
+export const posts = [
+    {
+        id: "1",
+        title: "Post title 1",
+        img: postImage,
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, libero quod error beatae reiciendis modi ducimus repudiandae aspernatur consequuntur, dolor, incidunt iusto praesentium obcaecati ex vitae veniam dolorem optio excepturi."
+
+    },
+    {
+        id: "2",
+        title: "Post title 2",
+        img: postImage,
+
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, libero quod error beatae reiciendis modi ducimus repudiandae aspernatur consequuntur, dolor, incidunt iusto praesentium obcaecati ex vitae veniam dolorem optio excepturi."
+    },
+    {
+        id: "3",
+        title: "Post title 3",
+        img: postImage,
+
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, libero quod error beatae reiciendis modi ducimus repudiandae aspernatur consequuntur, dolor, incidunt iusto praesentium obcaecati ex vitae veniam dolorem optio excepturi."
+    },
+    {
+        id: "4",
+        title: "Post title 4",
+        img: postImage,
+
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, libero quod error beatae reiciendis modi ducimus repudiandae aspernatur consequuntur, dolor, incidunt iusto praesentium obcaecati ex vitae veniam dolorem optio excepturi."
+    },
 ];

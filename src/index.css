@@ -30,6 +30,9 @@ a {
   text-decoration: none !important;
 
 }
+ul{
+  list-style-type: none;
+}
 
 /*button*/
 .custom_button {

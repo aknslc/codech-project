@@ -4,26 +4,24 @@ import { Helmet } from 'react-helmet'
 // components
 import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
-import Service from '../components/Service/Service'
-import Pagination from '../components/Pagination/Pagination'
+import Banner from '../components/Banner/Banner'
+import Posts from '../components/Posts/Posts'
 
-
-const Services = () => {
-
-    
+const Blogs = () => {
+    const title = "Blogs";
 
     return (
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Services</title>
+                <title>Blogs</title>
             </Helmet>
             <Navbar />
-            <Service/>
-            <Pagination />
+            <Banner title={title} />
+            <Posts/>
             <Footer />
         </>
     )
 }
 
-export default Services
+export default Blogs

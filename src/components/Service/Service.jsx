@@ -1,9 +1,11 @@
 import React from 'react'
+import { useServices } from '../../context/ServicesContext'
 import './service.css'
 
-const Service = ( {ServicesArray}) => {
+const Service = () => {
 
-    
+    const {currentServices} = useServices();
+
     return (
         <section id='services'>
             <div className="container">
@@ -11,7 +13,7 @@ const Service = ( {ServicesArray}) => {
                     <h2 className='section_title'>Our Services</h2>
 
                     <div className="row">
-                    {ServicesArray.map(service => (
+                    {currentServices.map(service => (
                             <div key={service.id} className="service_item col-lg-4 col-md-6 col-sm-12">
                                 <div className="card">
                                     <div className="card-body">

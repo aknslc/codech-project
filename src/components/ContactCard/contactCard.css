@@ -1,0 +1,84 @@
+
+.contact{
+    margin-top: 100px;
+}
+
+.contact_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #080a20;
+    padding: 25px;
+    text-align: center;
+}
+
+.contact_card h6{
+    color: #fff;
+    font-size: 5rem;
+}
+
+
+
+.contact_card p{
+
+    color: var(--light-blue);
+    font-size: 1.6rem !important;
+    width: 70%;
+
+}
+
+form{
+    padding: 50px;
+}
+
+form textarea{
+    height: 120px;
+    width: 100%;
+    background-color: transparent;
+    color: var(--light-blue);
+    outline: none;
+    border: 1px solid var(--dark-blue);
+    padding: 10px;
+    font-size: 1.7rem;
+}
+
+form input{
+    width: 100%;
+    background-color: transparent;
+    color: var(--light-blue);
+    outline: none;
+    border: 1px solid var(--dark-blue);
+    padding: 10px;
+    font-size: 1.7rem;
+}
+
+
+
+.address-card{
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid var(--dark-blue);
+    background-color: #080a20;
+    padding: 50px !important;
+
+}
+.address-card-item{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.address-card-item img{
+    width: 200px;
+}
+
+.address-card h3{
+    color: var(--dark-blue);
+    font-weight: 800;
+    font-size: 2rem;
+}
+.address-card p{
+    color: var(--light-blue);
+    font-size: 1.6rem !important;
+    
+}
