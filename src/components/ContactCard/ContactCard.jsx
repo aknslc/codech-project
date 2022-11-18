@@ -1,8 +1,9 @@
 import React from 'react'
 
 import './contactCard.css'
+import { FiFacebook, FiTwitter,FiInstagram } from 'react-icons/fi'
 
-import logo from '../../assets/images/logo.svg'
+import logo from '../../assets/images/logo.png'
 
 const ContactCard = () => {
     return (
@@ -66,11 +67,16 @@ const ContactCard = () => {
                         <div className="address-card-item email">
                             <h3>Email Adress</h3>
                             <p>
-                                asd@gmail.com
+                                aknselc1112@gmail.com
                             </p>
                         </div>
-                        <div className="address-card-item address">
+                        <div className="address-card-item social-media">
                             <h3>Social Media</h3>
+                            <div className="social-media-icons">
+                                <FiFacebook className='icon' />
+                                <FiTwitter className='icon' />
+                                <FiInstagram className='icon' />
+                            </div>
 
                         </div>
                     </div>

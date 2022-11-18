@@ -68,9 +68,7 @@ form input{
     text-align: center;
 }
 
-.address-card-item img{
-    width: 200px;
-}
+
 
 .address-card h3{
     color: var(--dark-blue);
@@ -81,4 +79,10 @@ form input{
     color: var(--light-blue);
     font-size: 1.6rem !important;
     
+}
+
+.social-media-icons .icon{
+    font-size: 2rem;
+    margin-right: 1rem;
+    filter: drop-shadow(1px 1px var(--green));
 }

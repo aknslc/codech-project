@@ -1,8 +1,13 @@
 .navbar {
     border-bottom: 1px solid var(--dark-blue);
     padding: 1rem 0px !important;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
 
+}
+.navbar-brand img{
+    height: 80px; 
 }
 
 .nav-link {

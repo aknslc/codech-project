@@ -1,15 +1,14 @@
 
 
 .page-link{
-    background-color: var(--green) !important;
+    background-color: var(--dark-blue) !important;
     color: #fff !important;
     border: none !important;
 }
 
-.page-link:focus{
-    background-color: var(--dark-blue) !important;
-    color: #fff !important;
-    
+.page-link.active{
+    background-color: var(--green) !important;
+
 }
 
 .disabled{

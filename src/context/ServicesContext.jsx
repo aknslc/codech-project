@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
 
-import { ServicesArray } from "../constants";
+import { services } from "../constants";
 
 const ServicesContext = createContext();
 
@@ -11,9 +11,9 @@ const ServicesProvider = ({ children }) => {
     // get current services
     const indexOfLastService = currentPage * servicesPerPage;
     const indexOfFirstService = indexOfLastService - servicesPerPage;
-    const currentServices = ServicesArray.slice(indexOfFirstService, indexOfLastService);
+    const currentServices = services.slice(indexOfFirstService, indexOfLastService);
 
-    const totalServices = ServicesArray.length;
+    const totalServices = services.length;
 
     // change page
     const paginate = pageNumber => setCurrentPage(pageNumber)

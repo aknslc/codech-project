@@ -4,31 +4,18 @@ footer {
     border-top: 1px solid var(--dark-blue);
 
 }
-.footer_content{
+
+.footer_content {
     padding-top: 50px;
 }
 
-.footer_block_address .footer_logo {
-    display: inline-block;
-    margin: 10px 0;
-
-}
-
-.footer_block_address .address {
+.footer_block_address a,p {
     color: var(--light-blue);
-    margin: 10px 0;
 }
-
-.footer_block_address .phone {
-    color: var(--light-blue);
-    margin: 10px 0;
-
-}
-
-.footer_block_address .mail {
-    color: var(--light-blue);
-    margin: 10px 0;
-
+.social-media-icons .icon{
+    font-size: 2rem;
+    margin-right: 1rem;
+    filter: drop-shadow(1px 1px var(--green)) !important;
 }
 
 .footer_item .footer_item_link {
@@ -36,6 +23,7 @@ footer {
     color: var(--light-blue);
     transition: color .25s ease;
 }
+
 .footer_item .footer_item_link:hover {
     color: var(--green);
 }
@@ -45,7 +33,7 @@ footer {
 }
 
 .footer_item {
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 
@@ -55,33 +43,35 @@ footer {
 /* responsive css */
 
 @media (max-width: 576px) {
-    .footer_item{
+    .footer_item {
         text-align: center;
-        
+
     }
-    .footer_item_title{
+
+    .footer_item_title {
         margin-top: 25px;
     }
 }
 
 @media (max-width: 768px) {
-    .footer_item{
+    .footer_item {
         text-align: center;
-        
+
     }
-    .footer_item_title{
+
+    .footer_item_title {
         margin-top: 35px;
     }
 }
 
 @media (max-width: 992px) {
-    .footer_item{
+    .footer_item {
         text-align: center;
-        
-    }
-    
 
-    
+    }
+
+
+
 }
 
 @media (max-width: 1200px) {}

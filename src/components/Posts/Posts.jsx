@@ -15,7 +15,7 @@ const Posts = () => {
                 <ul className='blog_posts'>
                     {postsTitle.map(item => (
                         <li key={item.id} className='post_item'>
-                            <a className={item.id === "all"? "active": 0} href="#!">
+                            <a className={`post_link ${item.id === "all"? "active": ''}`} href="#!">
                                 {item.title}
                             </a>
                         </li>

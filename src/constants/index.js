@@ -5,6 +5,10 @@ import cloudIcon from '../assets/images/cloud_icon.svg'
 import enterpriseIcon from '../assets/images/enterprise_icon.svg'
 import postImage from '../assets/images/post.png'
 
+import clientsImage1 from '../assets/images/1114.jpg'
+import clientsImage2 from '../assets/images/1115.jpg'
+
+
 
 export const navLinks = [
     {
@@ -25,7 +29,7 @@ export const navLinks = [
     },
 ];
 
-export const ServicesArray = [
+export const services = [
     {
         id: "service-1",
         title: "Web Software",
@@ -81,7 +85,6 @@ export const ServicesArray = [
             "How do you ensure your social media managhow your brand will position itself online to generate more business. We are with you for accurate results.",
     },
 ];
-
 
 export const solutions = [
     {
@@ -157,5 +160,40 @@ export const posts = [
         img: postImage,
 
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, libero quod error beatae reiciendis modi ducimus repudiandae aspernatur consequuntur, dolor, incidunt iusto praesentium obcaecati ex vitae veniam dolorem optio excepturi."
+    },
+];
+
+export const clients = [
+    {
+        id: "1",
+        img: clientsImage1 ,
+    },
+    {
+        id: "2",
+        img: clientsImage2,
+    },
+    {
+        id: "3",
+        img: clientsImage2,
+    },
+    {
+        id: "4",
+        img: clientsImage1,
+    },
+    {
+        id: "5",
+        img: clientsImage1,
+    },
+    {
+        id: "6",
+        img: clientsImage2,
+    },
+    {
+        id: "7",
+        img: clientsImage1,
+    },
+    {
+        id: "8",
+        img: clientsImage2,
     },
 ];

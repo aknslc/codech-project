@@ -1,22 +1,22 @@
 import React from 'react'
 import './footer.css'
-
+import { FiFacebook, FiTwitter,FiInstagram } from 'react-icons/fi'
 // logo
-import logo from "../../assets/images/logo.svg"
+import logo from "../../assets/images/logo.png"
 
 const Footer = () => {
     return (
         <footer>
             <div className="container">
-                <div className="footer_content row d-flex justify-content-between align-items-start">
+                <div className="footer_content row d-flex justify-content-between align-items-center">
                     <div className="footer_item col-lg-2 col-md-6 col-sm-12 footer_block_address">
                         <a className='footer_logo' href="/">
                             <img src={logo} alt="" />
                         </a>
                         <p className="address">
-                            Emniyetevleri Mah Batı Sokak
+                            lorem Mah Batı Sokak
                             <br />
-                             No: 2 Kağıthane/İstanbul
+                            No: 2 Kağıthane/İstanbul
                         </p>
 
                         <p className="phone">
@@ -24,8 +24,14 @@ const Footer = () => {
                         </p>
 
                         <p className='mail'>
-                            info@rubiklabs.com
+                            aknselc1112@gmail.com
                         </p>
+
+                        <div className="social-media-icons">
+                            <FiFacebook className='icon' />
+                            <FiTwitter className='icon' />
+                            <FiInstagram className='icon' />
+                        </div>
                     </div>
                     <div className="footer_item col-lg-2 col-md-6 col-sm-12">
                         <h3 className="footer_item_title">
@@ -46,6 +52,7 @@ const Footer = () => {
                         <a className='footer_item_link' href="/">Gamification</a>
                         <a className='footer_item_link' href="/">Cloud ERP</a>
                         <a className='footer_item_link' href="/">META</a>
+                        <a className='footer_item_link' href="/">META</a>
 
                     </div>
                     <div className="footer_item col-lg-2 col-md-6 col-sm-12">
@@ -60,7 +67,7 @@ const Footer = () => {
                     </div>
                     <div className="footer_item col-lg-2 col-md-6 col-sm-12">
                         <h3 className="footer_item_title">
-                        Platforms
+                            Platforms
                         </h3>
                         <a className='footer_item_link' href="/">Institutional</a>
                         <a className='footer_item_link' href="/">About Us</a>

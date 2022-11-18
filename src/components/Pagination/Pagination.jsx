@@ -14,6 +14,7 @@ const Pagination = () => {
         paginate ,
         totalServices
     } = useServices();
+    console.log(currentPage)
 
     const pageNumbers = [];
 
@@ -36,7 +37,7 @@ const Pagination = () => {
                         <Link onClick={(e) => {
                             e.preventDefault()
                             paginate(number)
-                        }} to="!#" className='page-link  px-4'>
+                        }} to="!#" className={`page-link px-4 ${currentPage === number ? 'active':""}`}>
                             {number}
                         </Link>
                     </li>

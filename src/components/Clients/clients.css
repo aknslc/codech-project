@@ -1,0 +1,14 @@
+#clients {
+    padding: 5rem 0;
+    background-color: #080a20;
+}
+
+
+
+.client_item img {
+    width: 100%;
+    height: 100px;
+    padding: 1rem;
+    border-radius: 2rem;
+    opacity: .9;
+}
