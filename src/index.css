@@ -2,9 +2,9 @@
 
 
 :root {
-  --primary: #0B0D28;
+  --primary: #002046;
   --green: #24D176;
-  --dark-blue: #192060;
+  --dark-blue: #192060; /* 192060*/
   --light-blue: #abafe8;
 
   /*font variable*/
@@ -26,8 +26,8 @@ p {
 }
 
 a {
-  font-size: 1.8rem !important;
   text-decoration: none !important;
+  font-size: 1.8rem !important;
 
 }
 ul{
@@ -44,8 +44,8 @@ ul{
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1.5rem;
-  margin: 1.5rem 0;
   cursor: pointer;
+  margin-top: 1rem;
 }
 
 .custom_button:hover{

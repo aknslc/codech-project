@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../assets/images/logo.png'
 import { navLinks } from '../../constants/index'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './navbar.css'
 
 const Navbar = () => {
@@ -26,11 +26,11 @@ const Navbar = () => {
                 className="nav-item"
                 key={nav.id}
               >
-                <Link className={`nav-link ${nav.title === 'Home' ? 'active' : ''}`}
+                <NavLink className="nav-link"
                   to={`/${nav.id !== 'home' ? nav.id : "" }`}
                 >
                   {nav.title}
-                </Link>
+                </NavLink>
               </li>
             ))}
           </ul>

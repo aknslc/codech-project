@@ -51,7 +51,7 @@ const Clients = () => {
                 <Slider {...settings}>
 
                     {clients.map(client => (
-                        <div className='client_item'>
+                        <div key={client.id} className='client_item'>
                             <img src={client.img} alt="" />
                         </div>
                     ))}

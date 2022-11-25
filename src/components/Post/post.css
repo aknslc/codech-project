@@ -3,15 +3,17 @@
     height: auto;
     position: relative;
     padding: 20px;
-    margin:25px;
+    margin: 25px;
     border-bottom: 1px solid var(--dark-blue);
 
 }
 
 .post-item-card img {
     width: 100%;
+    border-radius: 1rem;
 
 }
+
 .post-item-card .date {
     opacity: .6;
 
@@ -30,13 +32,30 @@
 .post-item-card .custom_button {
     position: absolute;
     left: 50%;
-    top: 25%;
+    top: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity .25s ease-in;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(15px);
+    color: var(--dark-blue);
+    
 }
 
 .post-item-card:hover .custom_button {
     opacity: 1;
 }
+
+
+
+@media (max-width: 576px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 1400px) {
+    .post-item-card .custom_button {
+        font-size: 1.2rem !important;
+        margin: 0 !important;
+        padding: 1rem;
+    }
+}
+

@@ -16,7 +16,7 @@ const Footer = () => {
                         <p className="address">
                             lorem Mah Batı Sokak
                             <br />
-                            No: 2 Kağıthane/İstanbul
+                            No: 7 Kağıthane/İstanbul
                         </p>
 
                         <p className="phone">

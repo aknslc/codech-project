@@ -13,7 +13,7 @@ const News = () => {
                 <h2 className='section_title'>Recent Blog Posts</h2>
                 <div className="row">
                     {filteredPosts.map(post => (
-                        <div key={post.id} className="col-lg-4">
+                        <div key={post.id} className="col-lg-4 col-md-6 col-sm-12">
                             <Post post={post}/>
                         </div>
                     ))}

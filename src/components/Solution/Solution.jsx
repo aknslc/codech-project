@@ -4,6 +4,7 @@ import { solutions } from '../../constants/index'
 
 import figure from '../../assets/images/figure2.svg'
 import figureLine from '../../assets/images/hexagon_line.svg'
+
 const Solution = () => {
     const [active, setActive] = useState({
         id: "solution-1",

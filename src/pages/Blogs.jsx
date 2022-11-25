@@ -1,5 +1,4 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
 
 // components
 import Navbar from '../components/Navbar/Navbar'
@@ -12,10 +11,6 @@ const Blogs = () => {
 
     return (
         <>
-            <Helmet>
-                <meta charSet="utf-8" />
-                <title>Blogs</title>
-            </Helmet>
             <Navbar />
             <Banner title={title} />
             <Posts/>

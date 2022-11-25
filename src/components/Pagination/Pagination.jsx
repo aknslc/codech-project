@@ -14,7 +14,6 @@ const Pagination = () => {
         paginate ,
         totalServices
     } = useServices();
-    console.log(currentPage)
 
     const pageNumbers = [];
 

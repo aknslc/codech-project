@@ -1,5 +1,4 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
 
 // components
 import Navbar from '../components/Navbar/Navbar'
@@ -9,15 +8,9 @@ import Pagination from '../components/Pagination/Pagination'
 
 
 const Services = () => {
-
-    
-
     return (
         <>
-            <Helmet>
-                <meta charSet="utf-8" />
-                <title>Services</title>
-            </Helmet>
+            
             <Navbar />
             <Service/>
             <Pagination />

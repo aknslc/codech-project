@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: #080a20;
+    background-color: #051a33;
     padding: 25px;
     text-align: center;
 }
@@ -38,7 +38,7 @@ form textarea{
     background-color: transparent;
     color: var(--light-blue);
     outline: none;
-    border: 1px solid var(--dark-blue);
+    border: 3px solid var(--dark-blue);
     padding: 10px;
     font-size: 1.7rem;
 }
@@ -48,7 +48,7 @@ form input{
     background-color: transparent;
     color: var(--light-blue);
     outline: none;
-    border: 1px solid var(--dark-blue);
+    border: 3px solid var(--dark-blue);
     padding: 10px;
     font-size: 1.7rem;
 }
@@ -59,7 +59,7 @@ form input{
     display: flex;
     flex-direction: column;
     border-left: 1px solid var(--dark-blue);
-    background-color: #080a20;
+    background-color: #051a33;
     padding: 50px !important;
 
 }
