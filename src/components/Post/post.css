@@ -29,7 +29,7 @@
     color: var(--light-blue);
 }
 
-.post-item-card .custom_button {
+.blog-button {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -37,11 +37,14 @@
     opacity: 0;
     transition: opacity .25s ease-in;
     backdrop-filter: blur(15px);
-    color: var(--dark-blue);
+    color: var(--primary);
+    padding: 10px 5px;
+    border: 2px solid var(--light-blue);
+    font-weight: 700;
     
 }
 
-.post-item-card:hover .custom_button {
+.post-item-card:hover .blog-button {
     opacity: 1;
 }
 

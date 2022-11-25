@@ -5,7 +5,7 @@ const Post = ({ post }) => {
     <div className='post-item-card'>
       <div className='position-relative'>
         <img src={post.img} alt="img" />
-        <a className='custom_button' href={`/post/${post.id}`}>Post Details</a>
+        <a className='blog-button' href={`/post/${post.id}`}>Post Details</a>
       </div>
       <h2>{post.title}</h2>
       <p>{post.description.substring(0, 100)}...</p>

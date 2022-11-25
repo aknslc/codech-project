@@ -86,3 +86,20 @@ form input{
     margin-right: 1rem;
     filter: drop-shadow(1px 1px var(--green));
 }
+
+
+.submit_button{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.7rem;
+    color: var(--green);
+    background-color: transparent;
+    border: 2px solid var(--dark-blue);
+    transition: all .15s;
+    
+}
+
+.submit_button:hover{
+ border: 2px solid var(--green);
+    
+}

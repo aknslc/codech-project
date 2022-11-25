@@ -38,7 +38,7 @@ const ContactCard = () => {
                                     <textarea name="message" placeholder='Your Message' cols="30" rows="10" />
                                 </div>
 
-                                <button className='custom_button' type='submit'>SUBMIT</button>
+                                <button className='submit_button' type='submit'>SUBMIT</button>
                             </div>
 
 

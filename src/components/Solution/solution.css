@@ -105,42 +105,45 @@
 /* responsive css */
 
 @media (max-width: 576px) {
-    .figures{
+    .figures {
         margin-right: auto;
         margin-left: auto;
         justify-content: center !important;
         width: 260px !important;
-        
+
     }
-    .figure{
+
+    .figure {
         width: 120px;
         height: 120px;
     }
-    .figure_icon{
+
+    .figure_icon {
         width: 40px;
     }
 
-    .home_solutions_title{
+    .home_solutions_title {
         font-size: 4rem;
         margin-bottom: 15px;
     }
-    .home_solutions_description{
+
+    .home_solutions_description {
         font-size: 1.5rem;
     }
 }
 
 @media (max-width: 768px) {
-    
-    .figure_line{
+
+    .figure_line {
         display: none;
     }
-    
+
 }
 
 @media (max-width: 992px) {
-    
 
-    .figures{
+
+    .figures {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -149,8 +152,8 @@
         height: auto;
         margin-bottom: 50px;
     }
-    
-    .figure{
+
+    .figure {
         position: relative !important;
         top: auto;
         left: auto;
@@ -159,7 +162,7 @@
         margin: 0;
     }
 
-    .figure_content{
+    .figure_content {
         width: 100%;
         text-align: center;
     }

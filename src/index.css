@@ -4,7 +4,8 @@
 :root {
   --primary: #002046;
   --green: #24D176;
-  --dark-blue: #192060; /* 192060*/
+  --dark-blue: #192060;
+  /* 192060*/
   --light-blue: #abafe8;
 
   /*font variable*/
@@ -30,26 +31,57 @@ a {
   font-size: 1.8rem !important;
 
 }
-ul{
+
+ul {
   list-style-type: none;
 }
 
 /*button*/
-.custom_button {
-  display: inline-block;
-  padding: 1.5rem 2rem;
-  border: 1px solid var(--green);
-  background-color: transparent;
-  color: white;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 1.5rem;
-  cursor: pointer;
-  margin-top: 1rem;
+.link_wrapper {
+  position: relative;
+  margin-top: 20px;
 }
 
-.custom_button:hover{
-  color: var(--light-blue);
+.icon {
+  position: absolute;
+  transform: rotate(45deg);
+  right: 10px;
+  z-index: -1;
+  transition: all .35s;
+  display: none;
+}
+
+.icon svg {
+  width: 25px;
+  transform: rotate(-45deg);
+  fill: #2ecc71;
+  transition: all .35s;
+}
+
+.custom_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 250px;
+  height: 50px;
+  background-color: transparent;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid var(--dark-blue);
+  transition: all .35s;
+}
+
+.custom_button:hover {
+  width: 200px;
+  border: 2px solid #2ecc71;
+  background: transparent;
+  color: #2ecc71;
+}
+.custom_button:hover .icon {
+  display: block;
 }
 
 /*section title*/
@@ -66,7 +98,7 @@ ul{
   display: block;
   margin-top: 1.5rem;
   width: 10%;
-  margin:  10px auto;
+  margin: 10px auto;
   height: .3rem;
   background: var(--green);
   content: "";
