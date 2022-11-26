@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="footer_content row d-flex justify-content-between align-items-center">
                     <div className="footer_item col-lg-2 col-md-6 col-sm-12 footer_block_address">
                         <a className='footer_logo' href="/">
-                            <img src={logo} alt="" />
+                            <img className='logo' src={logo} alt="" />
                         </a>
                         <p className="address">
                             lorem Mah Batı Sokak
