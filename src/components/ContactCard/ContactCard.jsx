@@ -48,7 +48,7 @@ const ContactCard = () => {
                     <div className="address-card col-lg-5">
                         <div className="address-card-item">
 
-                            <img src={logo} alt="" />
+                            <img className='logo' src={logo} alt="" />
 
 
                         </div>
