@@ -4,7 +4,10 @@ footer {
     border-top: 1px solid var(--dark-blue);
 
 }
-
+.footer_logo{
+    display: inline-block;
+    margin-bottom: 15px !important;
+}
 .footer_content {
     padding-top: 50px;
 }

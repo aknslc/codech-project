@@ -5,7 +5,6 @@ import Service from '../components/Service/Service'
 import Solution from '../components/Solution/Solution'
 import Footer from '../components/Footer/Footer'
 import News from '../components/News/News'
-import Clients from '../components/Clients/Clients'
 
 
 const Home = () => {
@@ -16,7 +15,6 @@ const Home = () => {
             <Service />
             <Solution />
             <News />
-            <Clients />
             <Footer />
         </>
     )

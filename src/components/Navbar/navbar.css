@@ -2,9 +2,7 @@
     border-bottom: 1px solid var(--dark-blue);
     padding: 1rem 0px !important;
     backdrop-filter: blur(10px);
-    position: fixed;
-    top: 0;
-
+    z-index: 1;
 }
 .logo{
     height: 80px; 
@@ -17,12 +15,13 @@
 }
 
 .navbar-toggler {
-    background-color: #fff !important;
-    color: var(--light-blue) !important;
+    background-color: #ddd !important;
+    border: none;
 }
 
 .navbar-toggler-icon {
     font-size: 1.8rem !important;
+
 }
 
 .navbar-collapse {

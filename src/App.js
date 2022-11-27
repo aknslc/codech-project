@@ -8,9 +8,6 @@ import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import SinglePost from "./pages/SinglePost";
 
-
-
-
 function App() {
   
 
