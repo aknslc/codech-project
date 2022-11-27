@@ -3,11 +3,14 @@ import storageIcon from '../assets/images/storage_icon.svg'
 import blockchainIcon from '../assets/images/blockchain.svg'
 import cloudIcon from '../assets/images/cloud_icon.svg'
 import enterpriseIcon from '../assets/images/enterprise_icon.svg'
-import postImage from '../assets/images/3955594.jpg'
+import postImage from '../assets/images/1.jpg'
 
 
-import clientsImage1 from '../assets/images/3955595.jpg'
-import clientsImage2 from '../assets/images/3955596.jpg'
+import clientsImage1 from '../assets/images/1.png'
+import clientsImage2 from '../assets/images/2.png'
+import clientsImage3 from '../assets/images/3.png'
+import clientsImage4 from '../assets/images/4.png'
+import clientsImage5 from '../assets/images/5.png'
 
 
 
@@ -193,19 +196,19 @@ export const clients = [
     },
     {
         id: "3",
-        img: clientsImage1,
+        img: clientsImage3,
     },
     {
         id: "4",
-        img: clientsImage2,
+        img: clientsImage4,
     },
     {
         id: "5",
-        img: clientsImage1,
+        img: clientsImage5,
     },
     {
         id: "6",
-        img: clientsImage2,
+        img: clientsImage3,
     },
     {
         id: "7",

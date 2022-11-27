@@ -46,7 +46,10 @@
 
 .figure_content {
     width: 600px;
+    
 }
+
+
 
 .figure.active,
 .figure:hover {
@@ -165,6 +168,11 @@
     .figure_content {
         width: 100%;
         text-align: center;
+    }
+
+    .figure_content .link_wrapper{
+        display: flex;
+        justify-content: center;
     }
 }
 

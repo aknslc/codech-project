@@ -11,6 +11,7 @@
 .post-item-card img {
     width: 100%;
     border-radius: 1rem;
+    filter: brightness(130%) contrast(90%) sepia(20%) !important;
 
 }
 
